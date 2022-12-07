@@ -17,6 +17,7 @@
 }
 
 body {
+  margin: 0;
   font-family: "Roboto", sans-serif;
   color: var(--text);
   background-color: #ffffff;
@@ -24,6 +25,8 @@ body {
   /* line-height: 1.5; */
   /* letter-spacing: 0.02em; */
 }
+
+
 
 .visually-hidden {
   position: absolute;
@@ -36,6 +39,22 @@ body {
   clip: rect(0 0 0 0);
   clip-path: inset(50%);
   margin: -1px;
+}
+
+h1, h2, h3, h4, p, ul {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1158px;
+  padding-left: 12px;
+  padding-right: 12px;
+
+
+  outline: 2px solid tomato;
 }
 
 .logo-studio {
@@ -56,12 +75,7 @@ body {
   letter-spacing: 0.03em;
 }
 
-.logo:hover,
-.logo:focus {
-  color: #404bbf;
-}
 
-/* .site-nav .link */
 .nav-link {
   color: var(--dark);
   text-decoration: none;
@@ -99,13 +113,18 @@ body {
 .hr {
   background-color: var(--dark);
 }
-
 .hero-title {
   color: #ffffff;
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
+  
+  padding-top: 192px;
+  /* padding-bottom: 291px; */
+  margin-bottom: 48px;
+
+  outline: 2px solid rgb(71, 255, 249);
 }
 
 .hero-button {
@@ -118,6 +137,10 @@ body {
   line-height: 1.18;
   letter-spacing: 0.04em;
   align-items: center;
+  margin-bottom: 192px;
+  
+
+  outline: 2px solid rgb(255, 71, 126);
 }
 
 .hero-button:hover,
@@ -125,10 +148,33 @@ body {
   background-color: #404bbf;
 }
 
+.future-list {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+
+
+.examples {
+
+
+  outline: 2px solid rgb(102, 255, 71);
+}
+
 .black-paragraph {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+
+.team-members {
+  margin-bottom: 120px;
+}
+
+/* тут отодвинуть лого в футере */
+/* .under-footer {
+  padding-top: 100px;
+  margin-bottom: 16px;
+} */
 
 /* portfolio page */
 .services-button {
@@ -155,6 +201,8 @@ body {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
+
+  margin-bottom: 72px;
 }
 
 .secondary-title {
