@@ -6,7 +6,7 @@
 /* колір футера + бекграунда героя #2E2F42 */
 
 :root {
-  /* взято зі Style Guide */
+  /*Style Guide */
   --primaty-brand: #4d5ae5;
   --dark: #2e2f42;
   --success: #31d0aa;
@@ -25,7 +25,6 @@ body {
   /* line-height: 1.5; */
   /* letter-spacing: 0.02em; */
 }
-
 
 
 .visually-hidden {
@@ -54,7 +53,7 @@ h1, h2, h3, h4, p, ul {
   padding-right: 12px;
 
 
-  outline: 2px solid tomato;
+  /* outline: 2px solid tomato; */
 }
 
 .logo-studio {
@@ -124,7 +123,7 @@ h1, h2, h3, h4, p, ul {
   /* padding-bottom: 291px; */
   margin-bottom: 48px;
 
-  outline: 2px solid rgb(71, 255, 249);
+  /* outline: 2px solid rgb(71, 255, 249); */
 }
 
 .hero-button {
@@ -140,7 +139,7 @@ h1, h2, h3, h4, p, ul {
   margin-bottom: 192px;
   
 
-  outline: 2px solid rgb(255, 71, 126);
+  /* outline: 2px solid rgb(255, 71, 126); */
 }
 
 .hero-button:hover,
@@ -150,15 +149,7 @@ h1, h2, h3, h4, p, ul {
 
 .future-list {
   padding-top: 120px;
-  padding-bottom: 120px;
-}
-
-
-
-.examples {
-
-
-  outline: 2px solid rgb(102, 255, 71);
+  margin-bottom: 120px;
 }
 
 .black-paragraph {
@@ -167,14 +158,16 @@ h1, h2, h3, h4, p, ul {
 }
 
 .team-members {
-  margin-bottom: 120px;
+  padding-bottom: 120px;
 }
 
-/* тут отодвинуть лого в футере */
-/* .under-footer {
+
+
+.logo-location-bottom {
+  display: inline-block;
   padding-top: 100px;
   margin-bottom: 16px;
-} */
+}
 
 /* portfolio page */
 .services-button {
@@ -223,9 +216,16 @@ footer {
   background-color: var(--dark);
 }
 
+.services {
+  padding-top: 96px;
+  margin-bottom: 72px;
+}
+
 .white-description {
   color: var(--accent);
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
+
+  padding-bottom: 100px;
 }
