@@ -56,6 +56,11 @@ h1, h2, h3, h4, p, ul {
   /* outline: 2px solid tomato; */
 }
 
+.header-flex {
+  display: flex;
+  align-items: center;
+}
+
 .logo-studio {
   color: var(--dark);
 }
@@ -74,6 +79,16 @@ h1, h2, h3, h4, p, ul {
   letter-spacing: 0.03em;
 }
 
+.nav-list {
+  display: flex
+  /* margin-right: 40px; */
+}
+
+.nav-list .item:not(:last-child) {
+  margin-right: 40px;
+}
+
+
 
 .nav-link {
   color: var(--dark);
@@ -85,6 +100,14 @@ h1, h2, h3, h4, p, ul {
 .nav-link:hover,
 .nav-link:focus {
   color: var(--primaty-brand);
+}
+
+.contacts {
+  display: flex;
+}
+
+.contacts .list:not(:last-child) {
+  margin-right: 40px;
 }
 
 .contacts .con-link {
