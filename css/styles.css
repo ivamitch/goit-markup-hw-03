@@ -50,8 +50,8 @@ h1, h2, h3, h4, p, ul {
   margin-left: auto;
   margin-right: auto;
   width: 1158px;
-  padding-left: 12px;
-  padding-right: 12px;
+  padding-left: 15px;
+  padding-right: 15px;
 
   /* outline: 2px solid tomato; */
 }
@@ -164,6 +164,10 @@ section {
 }
 
 .hero-button {
+  border-radius: 4px;
+  border-color: transparent;
+  padding: 16px 32px;
+
   color: #ffffff;
   background-color: var(--primaty-brand);
   font-family: "Roboto", sans-serif;
@@ -174,11 +178,7 @@ section {
   letter-spacing: 0.04em;
   align-items: center;
 
-  
-  /* margin-bottom: 192px; */
   display: inline-block;
-
-  /* outline: 2px solid rgb(255, 71, 126); */
 }
 
 .hero-button:hover,
@@ -226,7 +226,7 @@ section {
 }
 
 .team-member:not(:last-child) {
-  margin-left: 24px;
+  margin-right: 24px;
 }
 
 .black-paragraph {
@@ -251,10 +251,20 @@ section {
 
 /* portfolio page */
 
+/* .card-border {
+  border: 0.5px solid var(--light);
+} */
+
 .services {
   /* padding-top: 96px; */
   display: flex;
-  
+  justify-content: center;
+
+  padding-top: 96px;
+  margin-bottom: 72px;
+
+
+  /* background-color: teal; */
 }
 
 .services .list:not(:last-child) {
@@ -264,8 +274,12 @@ section {
 
 
 .services-button {
+  border: 1px solid var(--accent);
+  border-radius: 4px;
+  padding: 12px 24px;
+
   color: var(--primaty-brand);
-  background-color: var(--accent);
+  background-color: var(--light);
   cursor: pointer;
   font-family: "Roboto", sans-serif;
   font-style: normal;
@@ -274,7 +288,6 @@ section {
   line-height: 1.5;
   letter-spacing: 0.04em;
 
-  display: inline-block;
   /* text-align: center; */
 
   /* margin-right: 0px;
@@ -283,6 +296,8 @@ section {
 
 .services-button:hover,
 .services-button:focus {
+  border: 1px solid;
+  border-color: transparent;
   color: #ffffff;
   background-color: var(--primaty-brand);
 }
@@ -290,6 +305,9 @@ section {
 .service-example {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
+
+  /* background-color: tomato; */
 }
 
 .service-example .list{
