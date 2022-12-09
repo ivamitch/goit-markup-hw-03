@@ -230,6 +230,9 @@ section {
 }
 
 /* Our Team */
+.team-member{
+  border-radius: 0px 0px 4px 4px;
+}
 
 .team-members {
   padding-left: 0px;
